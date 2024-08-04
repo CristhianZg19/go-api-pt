@@ -164,7 +164,7 @@ func getStatistics(matrix [][]float64, tokenString string) (*StatisticsResponse,
 
 	// Agregar encabezados a la solicitud
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", tokenString) // Aquí debes poner el token JWT adecuado
+	req.Header.Set("Authorization", tokenString) // token para enviar a la API de node
 
 	// Crear un cliente HTTP y hacer la solicitud
 	client := &http.Client{}
