@@ -1,0 +1,34 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace files
+*.test
+*.out
+*.prof
+
+# Dependency directories
+/vendor/
+# Avoid including the vendor directory if you are using Go modules
+
+# Logs
+*.log
+
+# Build directories
+/build/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.swp
+*.swo
+.DS_Store
+
+# Environment variable files
+.env
